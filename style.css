@@ -1,0 +1,73 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.sidebar{
+    background-color: greenyellow;
+    width: 20vw;
+    font-family: "Kode Mono", monospace;
+    height: 100vh;
+}
+
+.sidebar nav{
+    padding: 72px;
+
+}
+
+.sidebar nav li{
+    list-style: none;
+    font-size: 30px;
+    padding: 33px 0;
+}
+
+.main{
+    background-color: blueviolet;
+    width: 90vw;
+}
+
+.container{
+    display: flex;
+}
+
+.infocontainer{
+    background-color: brown;
+    height: 80vh;
+    width: 159vh;
+    margin: 127px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devinfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hello{
+    font-size: 86px;
+}
+
+.Name{
+    font-size: 66px;
+    font-weight: bold;
+}
+
+.about{
+    font-size: 40px;
+}
+
+.buttons button{
+
+}
+
+.devpic img{
+    height: 50vh;
+    
+
+}
